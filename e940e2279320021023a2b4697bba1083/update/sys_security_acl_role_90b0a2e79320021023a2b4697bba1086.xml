@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>nj006</sys_created_by>
+        <sys_created_on>2024-03-01 09:39:53</sys_created_on>
+        <sys_id>90b0a2e79320021023a2b4697bba1086</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_941443_nj_app_first.admin</sys_name>
+        <sys_package display_value="NJ app" source="x_941443_nj_app">e940e2279320021023a2b4697bba1083</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NJ app">e940e2279320021023a2b4697bba1083</sys_scope>
+        <sys_security_acl display_value="x_941443_nj_app_first">d8b02ae39320021023a2b4697bba100f</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_90b0a2e79320021023a2b4697bba1086</sys_update_name>
+        <sys_updated_by>nj006</sys_updated_by>
+        <sys_updated_on>2024-03-01 09:39:53</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

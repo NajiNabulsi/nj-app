@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_941443_nj_app.three_user" name="x_941443_nj_app.three_user">9b25dbf19370021023a2b4697bba103e</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>nj006</sys_created_by>
+        <sys_created_on>2024-03-08 13:15:32</sys_created_on>
+        <sys_id>d325dbf19370021023a2b4697bba1040</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9b25dbf19370021023a2b4697bba103e</sys_name>
+        <sys_package display_value="NJ app" source="x_941443_nj_app">e940e2279320021023a2b4697bba1083</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NJ app">e940e2279320021023a2b4697bba1083</sys_scope>
+        <sys_update_name>sys_embedded_help_role_d325dbf19370021023a2b4697bba1040</sys_update_name>
+        <sys_updated_by>nj006</sys_updated_by>
+        <sys_updated_on>2024-03-08 13:15:32</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
