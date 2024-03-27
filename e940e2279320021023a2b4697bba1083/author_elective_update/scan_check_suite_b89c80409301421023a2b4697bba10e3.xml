@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite">
+    <scan_check_suite action="DELETE">
+        <active>true</active>
+        <description/>
+        <name>flow nj app</name>
+        <private>false</private>
+        <scorecard>false</scorecard>
+        <sys_class_name>scan_check_suite</sys_class_name>
+        <sys_created_by>nj006</sys_created_by>
+        <sys_created_on>2024-03-14 22:25:41</sys_created_on>
+        <sys_id>b89c80409301421023a2b4697bba10e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>flow nj app</sys_name>
+        <sys_package display_value="NJ app" source="x_941443_nj_app">e940e2279320021023a2b4697bba1083</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NJ app">e940e2279320021023a2b4697bba1083</sys_scope>
+        <sys_update_name>scan_check_suite_b89c80409301421023a2b4697bba10e3</sys_update_name>
+        <sys_updated_by>nj006</sys_updated_by>
+        <sys_updated_on>2024-03-14 22:25:41</sys_updated_on>
+        <triggers/>
+    </scan_check_suite>
+    <sys_translated_text action="DELETE" query="documentkey=b89c80409301421023a2b4697bba10e3"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NJ app">e940e2279320021023a2b4697bba1083</application>
+        <file_path/>
+        <instance_id>4f1fb2fadb1e7d54ebdd2a59139619ba</instance_id>
+        <instance_name>dev208194</instance_name>
+        <name>scan_check_suite_b89c80409301421023a2b4697bba10e3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite"><scan_check_suite action="INSERT_OR_UPDATE"><active>true</active><description/><name>flow nj app</name><private>false</private><scorecard>false</scorecard><sys_class_name>scan_check_suite</sys_class_name><sys_created_by>nj006</sys_created_by><sys_created_on>2024-03-14 22:25:41</sys_created_on><sys_id>b89c80409301421023a2b4697bba10e3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>flow nj app</sys_name><sys_package display_value="NJ app" source="x_941443_nj_app">e940e2279320021023a2b4697bba1083</sys_package><sys_policy/><sys_scope display_value="NJ app">e940e2279320021023a2b4697bba1083</sys_scope><sys_update_name>scan_check_suite_b89c80409301421023a2b4697bba10e3</sys_update_name><sys_updated_by>nj006</sys_updated_by><sys_updated_on>2024-03-14 22:25:41</sys_updated_on><triggers/></scan_check_suite><sys_translated_text action="delete_multiple" query="documentkey=b89c80409301421023a2b4697bba10e3"/></record_update>]]></payload>
+        <payload_hash>125821065</payload_hash>
+        <record_name>flow nj app</record_name>
+        <reverted_from/>
+        <source>6af3feb293b0021023a2b4697bba1035</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nj006</sys_created_by>
+        <sys_created_on>2024-03-14 22:25:41</sys_created_on>
+        <sys_id>fcacc44c93cd021023a2b4697bba10c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e3f1234730000001</sys_recorded_at>
+        <sys_updated_by>nj006</sys_updated_by>
+        <sys_updated_on>2024-03-14 22:25:41</sys_updated_on>
+        <type>Suite</type>
+        <update_guid>34acc44c9dcd02109900c3a62ef041c5</update_guid>
+        <update_guid_history>34acc44c9dcd02109900c3a62ef041c5:125821065</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="flow nj app">42a5c28593c1021023a2b4697bba103c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nj006</sys_created_by>
+        <sys_created_on>2024-03-18 09:48:20</sys_created_on>
+        <sys_db_object display_value="" name="scan_check_suite">scan_check_suite</sys_db_object>
+        <sys_id>004f3051fc7c4594801b8c32179d7610</sys_id>
+        <sys_metadata>b89c80409301421023a2b4697bba10e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>flow nj app</sys_name>
+        <sys_package display_value="NJ app" source="x_941443_nj_app">e940e2279320021023a2b4697bba1083</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NJ app">e940e2279320021023a2b4697bba1083</sys_scope>
+        <sys_scope_delete display_value="">77503342068140dca9dd3de21fae55c9</sys_scope_delete>
+        <sys_update_name>scan_check_suite_b89c80409301421023a2b4697bba10e3</sys_update_name>
+        <sys_update_version display_value="scan_check_suite_b89c80409301421023a2b4697bba10e3">fcacc44c93cd021023a2b4697bba10c5</sys_update_version>
+        <sys_updated_by>nj006</sys_updated_by>
+        <sys_updated_on>2024-03-18 09:48:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

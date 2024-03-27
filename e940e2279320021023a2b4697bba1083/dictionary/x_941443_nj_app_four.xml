@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="894c181f93b0021023a2b4697bba10d4" label="Four" max_length="40" name="x_941443_nj_app_four" type="collection">
+        <element label="Name" max_length="150" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
     </element>
 </database>

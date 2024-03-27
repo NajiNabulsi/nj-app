@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function continueOK() {
+	alert("OK clicked");
+	var gdw = GlideDialogWindow.get();
+	var name =gel('my_name').value;
+	var user = gel('user_ref').value;
+	var cat = gel('my_category').value;
+        var sys_id = gdw.getPreference('sys_id'); //get the values passed in the client script 
+	var selected_value = gdw.getPreference('value'); //get the values passed in the client script 
+	alert(name+"---"+user+"---"+cat+"---"+sys_id+"---"+selected_value);
+	GlideDialogWindow.get().destroy();
+}
+function continueCancel() {
+	alert("Cancel clicked");
+	GlideDialogWindow.get().destroy();
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_941443_nj_app_ui_page_demo.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+     <g:ui_form>
+	<table>
+		<tr>
+		<td style="width:25%">
+			<g:form_label>
+			Name: 
+			</g:form_label>
+                 </td>
+		<td style="width:60%"> 
+                 <input type="text" aria-label="Print your name" name="my_name" id="my_name" maxlength="25"/>	
+                </td>
+		</tr>
+		<tr>
+                  <td style="width:25%">
+			<g:form_label>
+			Select User: 
+		        </g:form_label>		
+                  </td>
+		  <td style="width:60%">
+		    <g:ui_reference name="user_ref" id="user_ref" query="user_nameSTARTSWITHa" table="sys_user"  />
+                   </td>
+                </tr>
+		<tr>
+                   <td style="width:25%">
+			<g:form_label>
+			Select Incident: 
+			</g:form_label>
+                   </td>
+		    <td style="width:60%">
+                      <g:ui_choicelist name="my_category" id="my_category" table="incident" mandatory="true"   field="category" query="active=true"/>
+                    </td>
+                </tr>
+		<tr>
+                     <td>
+                       <g:dialog_buttons_ok_cancel ok_id="submitData" ok="return continueOK()" ok_type="button" ok_text="${gs.getMessage('Okay')}" ok_style_class="btn btn-primary" cancel_type="button" cancel_id="cancelData" cancel_style_class="btn btn-default" cancel="return continueCancel()"/>
+                    </td>
+               </tr>
+	</table>
+	</g:ui_form>
+</j:jelly>]]></html>
+        <name>ui_page_demo</name>
+        <processing_script><![CDATA[var user = request.getParameter("user_ref"); //mention the name of the elment here
+var my_name = request.getParameter("my_name"); //mention the name of the elment here
+var category = request.getParameter("my_category"); //mention the name of the elment here
+gs.info("Asif: testing "+user+"---"+my_name+"---"+category);
+//you can do gliderecord and store or add any other server side code here]]></processing_script>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>nj006</sys_created_by>
+        <sys_created_on>2024-03-20 08:57:50</sys_created_on>
+        <sys_id>694d807993cd421023a2b4697bba10da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ui_page_demo</sys_name>
+        <sys_package display_value="NJ app" source="x_941443_nj_app">e940e2279320021023a2b4697bba1083</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NJ app">e940e2279320021023a2b4697bba1083</sys_scope>
+        <sys_update_name>sys_ui_page_694d807993cd421023a2b4697bba10da</sys_update_name>
+        <sys_updated_by>nj006</sys_updated_by>
+        <sys_updated_on>2024-03-20 08:57:50</sys_updated_on>
+    </sys_ui_page>
+</record_update>

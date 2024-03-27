@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check">
+    <scan_check_suite_check action="DELETE">
+        <check display_value="Configure the mobile app to clear the copy/paste clipboard">e3f082fb8702101001c8de05b7cb0b13</check>
+        <score_weight>1</score_weight>
+        <suite display_value="flow nj app">b89c80409301421023a2b4697bba10e3</suite>
+        <sys_class_name>scan_check_suite_check</sys_class_name>
+        <sys_created_by>nj006</sys_created_by>
+        <sys_created_on>2024-03-15 09:53:46</sys_created_on>
+        <sys_id>542a2ac093cd421023a2b4697bba104f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NJ app" source="x_941443_nj_app">e940e2279320021023a2b4697bba1083</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NJ app">e940e2279320021023a2b4697bba1083</sys_scope>
+        <sys_update_name>scan_check_suite_check_542a2ac093cd421023a2b4697bba104f</sys_update_name>
+        <sys_updated_by>nj006</sys_updated_by>
+        <sys_updated_on>2024-03-15 09:53:46</sys_updated_on>
+    </scan_check_suite_check>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NJ app">e940e2279320021023a2b4697bba1083</application>
+        <file_path/>
+        <instance_id>4f1fb2fadb1e7d54ebdd2a59139619ba</instance_id>
+        <instance_name>dev208194</instance_name>
+        <name>scan_check_suite_check_542a2ac093cd421023a2b4697bba104f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Configure the mobile app to clear the copy/paste clipboard">e3f082fb8702101001c8de05b7cb0b13</check><score_weight>1</score_weight><suite display_value="flow nj app">b89c80409301421023a2b4697bba10e3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>nj006</sys_created_by><sys_created_on>2024-03-15 09:53:46</sys_created_on><sys_id>542a2ac093cd421023a2b4697bba104f</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="NJ app" source="x_941443_nj_app">e940e2279320021023a2b4697bba1083</sys_package><sys_policy/><sys_scope display_value="NJ app">e940e2279320021023a2b4697bba1083</sys_scope><sys_update_name>scan_check_suite_check_542a2ac093cd421023a2b4697bba104f</sys_update_name><sys_updated_by>nj006</sys_updated_by><sys_updated_on>2024-03-15 09:53:46</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+        <payload_hash>264193831</payload_hash>
+        <record_name>e3f082fb8702101001c8de05b7cb0b13</record_name>
+        <reverted_from/>
+        <source>6af3feb293b0021023a2b4697bba1035</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nj006</sys_created_by>
+        <sys_created_on>2024-03-15 09:53:46</sys_created_on>
+        <sys_id>942a2ac093cd421023a2b4697bba1051</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e41882a450000001</sys_recorded_at>
+        <sys_updated_by>nj006</sys_updated_by>
+        <sys_updated_on>2024-03-15 09:53:46</sys_updated_on>
+        <type>Suite Check</type>
+        <update_guid>d82a2ac06bcd4210d5eb3221e417b950</update_guid>
+        <update_guid_history>d82a2ac06bcd4210d5eb3221e417b950:264193831</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Configure the mobile app to clear the copy/paste clipboard">78a5028593c1021023a2b4697bba108e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nj006</sys_created_by>
+        <sys_created_on>2024-03-18 09:48:15</sys_created_on>
+        <sys_db_object display_value="" name="scan_check_suite_check">scan_check_suite_check</sys_db_object>
+        <sys_id>24bdc60a51bd499087bcda82d2757171</sys_id>
+        <sys_metadata>542a2ac093cd421023a2b4697bba104f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NJ app" source="x_941443_nj_app">e940e2279320021023a2b4697bba1083</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NJ app">e940e2279320021023a2b4697bba1083</sys_scope>
+        <sys_scope_delete display_value="">77503342068140dca9dd3de21fae55c9</sys_scope_delete>
+        <sys_update_name>scan_check_suite_check_542a2ac093cd421023a2b4697bba104f</sys_update_name>
+        <sys_update_version display_value="scan_check_suite_check_542a2ac093cd421023a2b4697bba104f">942a2ac093cd421023a2b4697bba1051</sys_update_version>
+        <sys_updated_by>nj006</sys_updated_by>
+        <sys_updated_on>2024-03-18 09:48:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

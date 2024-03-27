@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="dfb5ba019309021023a2b4697bba1059" label="publishing" max_length="40" name="x_941443_nj_app_publishing" type="collection">
+        <element default="11936248938d421023a2b4697bba1097" label="Credential Alias" max_length="32" name="credential_alias" reference="sys_alias" type="reference"/>
+        <element default="https://dev208194.service-now.com" label="INC URL" max_length="150" name="inc_url" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="e940e2279320021023a2b4697bba1083" label="Scop APP" max_length="32" name="scop_app" reference="sys_scope" type="reference"/>
+        <element default="41d8420d93c1021023a2b4697bba1059" label="Suite" max_length="32" name="suite" reference="scan_check_suite" type="reference"/>
+        <index name="index">
+            <element name="credential_alias"/>
+        </index>
+        <index name="index2">
+            <element name="scop_app"/>
+        </index>
+        <index name="index3">
+            <element name="suite"/>
+        </index>
+    </element>
+</database>

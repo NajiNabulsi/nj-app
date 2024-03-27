@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check">
+    <scan_check_suite_check action="INSERT_OR_UPDATE">
+        <check display_value="Deprecated API: GlideCryptoService">dfd6ccb8db796510dd95b7e8f49619eb</check>
+        <score_weight>1</score_weight>
+        <suite display_value="NJ flow test">a3a5064193c1021023a2b4697bba10bd</suite>
+        <sys_class_name>scan_check_suite_check</sys_class_name>
+        <sys_created_by>nj006</sys_created_by>
+        <sys_created_on>2024-03-18 09:50:49</sys_created_on>
+        <sys_id>8e36ce8593c1021023a2b4697bba1031</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NJ app" source="x_941443_nj_app">e940e2279320021023a2b4697bba1083</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NJ app">e940e2279320021023a2b4697bba1083</sys_scope>
+        <sys_update_name>scan_check_suite_check_8e36ce8593c1021023a2b4697bba1031</sys_update_name>
+        <sys_updated_by>nj006</sys_updated_by>
+        <sys_updated_on>2024-03-18 09:50:49</sys_updated_on>
+    </scan_check_suite_check>
+</record_update>

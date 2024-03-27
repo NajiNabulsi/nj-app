@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check">
+    <scan_check_suite_check action="DELETE">
+        <check display_value="Accounts, breaching Access Right Concepts, using ACLs and Roles">553775b78702101001c8de05b7cb0b42</check>
+        <score_weight>1</score_weight>
+        <suite display_value="flow nj app">b89c80409301421023a2b4697bba10e3</suite>
+        <sys_class_name>scan_check_suite_check</sys_class_name>
+        <sys_created_by>nj006</sys_created_by>
+        <sys_created_on>2024-03-15 09:53:45</sys_created_on>
+        <sys_id>402ae6c093cd421023a2b4697bba10fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NJ app" source="x_941443_nj_app">e940e2279320021023a2b4697bba1083</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NJ app">e940e2279320021023a2b4697bba1083</sys_scope>
+        <sys_update_name>scan_check_suite_check_402ae6c093cd421023a2b4697bba10fb</sys_update_name>
+        <sys_updated_by>nj006</sys_updated_by>
+        <sys_updated_on>2024-03-15 09:53:45</sys_updated_on>
+    </scan_check_suite_check>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NJ app">e940e2279320021023a2b4697bba1083</application>
+        <file_path/>
+        <instance_id>4f1fb2fadb1e7d54ebdd2a59139619ba</instance_id>
+        <instance_name>dev208194</instance_name>
+        <name>scan_check_suite_check_402ae6c093cd421023a2b4697bba10fb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Accounts, breaching Access Right Concepts, using ACLs and Roles">553775b78702101001c8de05b7cb0b42</check><score_weight>1</score_weight><suite display_value="flow nj app">b89c80409301421023a2b4697bba10e3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>nj006</sys_created_by><sys_created_on>2024-03-15 09:53:45</sys_created_on><sys_id>402ae6c093cd421023a2b4697bba10fb</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="NJ app" source="x_941443_nj_app">e940e2279320021023a2b4697bba1083</sys_package><sys_policy/><sys_scope display_value="NJ app">e940e2279320021023a2b4697bba1083</sys_scope><sys_update_name>scan_check_suite_check_402ae6c093cd421023a2b4697bba10fb</sys_update_name><sys_updated_by>nj006</sys_updated_by><sys_updated_on>2024-03-15 09:53:45</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+        <payload_hash>605353909</payload_hash>
+        <record_name>553775b78702101001c8de05b7cb0b42</record_name>
+        <reverted_from/>
+        <source>6af3feb293b0021023a2b4697bba1035</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nj006</sys_created_by>
+        <sys_created_on>2024-03-15 09:53:45</sys_created_on>
+        <sys_id>802ae6c093cd421023a2b4697bba10fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e418827800000001</sys_recorded_at>
+        <sys_updated_by>nj006</sys_updated_by>
+        <sys_updated_on>2024-03-15 09:53:45</sys_updated_on>
+        <type>Suite Check</type>
+        <update_guid>c42ae6c0fbcd42109c4f9dd2d62792fc</update_guid>
+        <update_guid_history>c42ae6c0fbcd42109c4f9dd2d62792fc:605353909</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Accounts, breaching Access Right Concepts, using ACLs and Roles">9ca5ce4593c1021023a2b4697bba10c9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nj006</sys_created_by>
+        <sys_created_on>2024-03-18 09:48:14</sys_created_on>
+        <sys_db_object display_value="" name="scan_check_suite_check">scan_check_suite_check</sys_db_object>
+        <sys_id>15de33024a1d4f2882f996f5985fa184</sys_id>
+        <sys_metadata>402ae6c093cd421023a2b4697bba10fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NJ app" source="x_941443_nj_app">e940e2279320021023a2b4697bba1083</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NJ app">e940e2279320021023a2b4697bba1083</sys_scope>
+        <sys_scope_delete display_value="">77503342068140dca9dd3de21fae55c9</sys_scope_delete>
+        <sys_update_name>scan_check_suite_check_402ae6c093cd421023a2b4697bba10fb</sys_update_name>
+        <sys_update_version display_value="scan_check_suite_check_402ae6c093cd421023a2b4697bba10fb">802ae6c093cd421023a2b4697bba10fd</sys_update_version>
+        <sys_updated_by>nj006</sys_updated_by>
+        <sys_updated_on>2024-03-18 09:48:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
